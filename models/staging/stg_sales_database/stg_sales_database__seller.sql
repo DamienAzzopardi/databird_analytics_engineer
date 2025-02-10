@@ -1,7 +1,3 @@
-{{ config(
-    materialized='table'
-) }}
-
 select
     seller_id,
     seller_zip_code,

@@ -1,8 +1,4 @@
-{{ config(
-    materialized='table'
-) }}
-
-select 
+select
     user_name as user_id,
     customer_zip_code as user_zip_code,
     customer_city as user_city,

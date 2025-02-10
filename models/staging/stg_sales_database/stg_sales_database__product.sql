@@ -1,7 +1,3 @@
-{{ config(
-    materialized='table'
-) }}
-
 select
     product_id,
     coalesce(product_category,'other') as product_category,

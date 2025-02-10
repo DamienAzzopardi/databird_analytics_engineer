@@ -1,7 +1,3 @@
-{{ config(
-    materialized='table'
-) }}
-
 select
     concat(order_id, '_', payment_sequential) as payment_id,
     order_id,

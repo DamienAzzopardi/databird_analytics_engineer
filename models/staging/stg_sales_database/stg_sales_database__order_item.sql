@@ -1,7 +1,3 @@
-{{ config(
-    materialized='table'
-) }}
-
 select
     concat(order_id, '_', product_id) as order_item_id,
     order_id,

@@ -1,7 +1,3 @@
-{{ config(
-    materialized='table'
-) }}
-
 select
     concat(feedback_id, '_', order_id) as feedback_id,
     order_id,
