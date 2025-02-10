@@ -1,6 +1,17 @@
 version: 2
 
 sources:
+  - name: sales_database
+    schema: sales_database
+    tables:
+      - name: feedback
+      - name: payment
+      - name: product
+      - name: order
+      - name: order_item
+      - name: seller
+      - name: user
+  
   - name: airbnb
     schema: airbnb
     tables:
