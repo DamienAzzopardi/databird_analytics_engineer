@@ -1,6 +1,22 @@
 version: 2
 
 sources:
+  - name: sales_database
+    schema: sales_database
+    tables:
+      - name: feedback
+      - name: payment
+      - name: product
+      - name: order
+      - name: order_item
+      - name: seller
+      - name: user
+      
+  - name: google_sheets
+    schema: google_sheets
+    tables:
+      - name: account_manager_region_mapping
+  
   - name: airbnb
     schema: airbnb
     tables:

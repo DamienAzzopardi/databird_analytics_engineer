@@ -1,7 +1,8 @@
-{{ config(
-    materialized='table',
-    tags=['daily']
-) }}
+{{
+    config(
+        materialized='table'
+    ) 
+}}
 
 select
     neighbourhood_cleansed,
