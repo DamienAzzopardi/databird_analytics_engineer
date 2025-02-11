@@ -21,3 +21,9 @@ sources:
     schema: airbnb
     tables:
       - name: listings
+
+  - name: spotify
+    schema: spotify
+    tables:
+      - name: songs
+      - name: listening_data
