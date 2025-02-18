@@ -16,6 +16,11 @@ sources:
     schema: google_sheets
     tables:
       - name: account_manager_region_mapping
+
+  - name: google_analytics
+    schema: google_analytics_4
+    tables:
+        - name: events_2021_01_01_05
   
   - name: airbnb
     schema: airbnb

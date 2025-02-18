@@ -17,6 +17,7 @@ models:
               to: ref('stg_sales_database__order')
               field: order_id
 
+
   - name: stg_sales_database__order
     description: "This model contains information about orders placed by users, including the status of each order."
     columns:
