@@ -1,6 +1,8 @@
-{{ config(
-    materialized='table'
-) }}
+{{ 
+    config(
+        materialized='table'
+    )
+}}
 
 select
     cast(id as string) as id,
@@ -11,4 +13,5 @@ select
     cast(minimum_nights as integer) as minimum_nights,
     cast(number_of_reviews as integer) as number_of_reviews,
     cast(availability_365 as integer) as availability_365
+
 from {{ source('airbnb', 'listings') }}
