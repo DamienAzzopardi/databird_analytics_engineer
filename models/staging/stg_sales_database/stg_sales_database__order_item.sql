@@ -8,4 +8,5 @@ select
     shipping_cost,
     quantity as item_quantity,
     (price * quantity) + shipping_cost as total_order_item_amount
+
 from {{ source('sales_database', 'order_item') }}

@@ -7,4 +7,5 @@ select
     datetime(pickup_date, "Europe/Paris") as picked_up_at,
     datetime(delivered_date, "Europe/Paris") as delivered_at,
     datetime(estimated_time_delivery, "Europe/Paris") as estimated_time_delivery
+
 from {{ source('sales_database', 'order') }}
