@@ -1,4 +1,9 @@
-Welcome to your new dbt project!
+## Databird Analytics Engineering Track – dbt Project
+
+Welcome to the dbt project for the **Analytics Engineering** track at **Databird**!
+
+This repository serves as a learning and practice environment for participants in the Databird Analytics Engineer track. Here, you'll develop and optimize data models, implement transformations, and apply best practices for building scalable analytics workflows using dbt.
+
 
 ### Using the starter project
 
