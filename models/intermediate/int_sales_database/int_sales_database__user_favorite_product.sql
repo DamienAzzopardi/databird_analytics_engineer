@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized='table'
-    ) 
-}}
-
 with
 
 favorite_product as (

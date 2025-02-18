@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized='table'
-    ) 
-}}
-
 with
 
 order_item_grouped_by_order as (
