@@ -1,9 +1,3 @@
-{{
-    config(
-        materialized='table'
-    ) 
-}}
-
 with
 
 orders_summary as (

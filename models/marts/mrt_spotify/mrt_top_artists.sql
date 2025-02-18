@@ -1,9 +1,3 @@
-{{
-	config(
-		materialized='table'
-	)
-}}
-
 with
 
 recent_listening as (
