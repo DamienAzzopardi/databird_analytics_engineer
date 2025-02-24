@@ -14,9 +14,7 @@ with neighbourhood_prices as (
 
     from {{ ref('stg_airbnb__listings') }}
 
-    group by 
-        neighbourhood_cleansed,
-        room_type
+    group by 1, 2
 
 )
 
