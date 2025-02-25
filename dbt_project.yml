@@ -43,10 +43,13 @@ models:
   databird_analytics_engineering:
 
     staging:
+      +schema: staging  # Saves models in `bigquery_project.staging`
       +materialized: view
 
     intermediate:
+      +schema: intermediate  # Saves models in `bigquery_project.intermediate`
       +materialized: view
-
+      
     marts:
+      +schema: marts  # Saves models in `bigquery_project.marts`
       +materialized: table
