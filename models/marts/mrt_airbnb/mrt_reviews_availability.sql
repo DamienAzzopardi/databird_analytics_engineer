@@ -17,17 +17,15 @@ with listings as (
 
 ),
 
-reviews_availability as (
+reviews as (
 
     select
         neighbourhood_cleansed,
         room_type,
-        sum(number_of_reviews) as total_reviews,
-        round(avg(availability_365),2) as avg_availability
-
+        sum(number_of_reviews) as total_reviews
     from listings
 
     group by 1, 2
 )
 
-select * from reviews_availability
+select * from reviews
