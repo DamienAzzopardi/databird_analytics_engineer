@@ -32,8 +32,3 @@ sources:
     tables:
       - name: songs
       - name: listening_data
-
-  - name: airbnb_test
-    schema: airbnb_test
-    tables:
-      - name: airbnb_test
